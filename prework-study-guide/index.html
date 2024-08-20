@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -36,7 +37,21 @@
      <section class="card" id="css-section">
       <h2>CSS</h2>
       <ul>
-        <li>Enter your CSS notes here</li>
+        <li>inline CSS is used when a developer wants to style an
+          element directly in the HTML file ex: h1 style="color:red;" >Prework Study Guide< close header
+        </li>
+        <li> Internal style sheets are embedded in the head of the HTML ex: 
+          head 
+          style h1 { color: red;}
+          close style 
+          close head 
+          this states that all h1 elements on the page will be red
+        </li>
+        <li>External style sheets are linked in the head of the HTML (see link tag for 
+          example, href defines where to look in directory for the style sheet) </li>
+          <li>A margin is space around the outside element, while padding is space around the content
+            inside an element
+          </li>
       </ul>
      </section>
      <section class="card" id="git-section">
@@ -46,6 +61,19 @@
         <li>git checkout -b (branch-name): creates a new branch and swiches
           to it, like a working directory, but a version of the code 
           to pull in later
+        </li>
+        <li>once a new branch is made, open VS code by typing code . 
+          and work remotely on the code, save changes to file as you go
+        </li>
+        <li>To commit saving changes, go to terminal and use got stauts to 
+          make sure youre in the new branch, use command git add -A to save 
+          all changes to the working directory, then git commit -m "descriptive message here", -m 
+          indidcating message for reson of commit
+        </li>
+        <li> sync local branch with git hub by, git pull origin main, and git push 
+          origin (title of new branch you were working in), then go to git hub and 
+          pull the request, make sure base brainch is set to main and compare 
+          is set to the new branch, then merge the pull request
         </li>
       </ul>
      </section>
