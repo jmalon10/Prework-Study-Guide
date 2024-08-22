@@ -2,7 +2,7 @@
 
 ## Description
 
-- I am a student of Colombia's School of Engineering Coding Bootcamp
+- I am a student of Colombia's Coding Bootcamp
 - This project was built to have the pre-work notes structured on a webpage so that I could easily find and read the information
 - I learned how to use HTML, CSS, Git and Javascript and see how they work together for content development
 
